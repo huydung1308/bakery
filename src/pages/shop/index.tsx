@@ -1,9 +1,9 @@
+import * as React from 'react'
+import { Layout } from 'components/Layout'
 import { Container, Grid, Typography } from '@mui/material'
 import { Image } from 'components/Image'
-import { Layout } from 'components/Layout'
-import 'react-responsive-carousel/lib/styles/carousel.min.css'
 
-export default function Home() {
+const Shop = () => {
   return (
     <Layout>
       <Container>
@@ -81,3 +81,5 @@ export default function Home() {
     </Layout>
   )
 }
+
+export default Shop

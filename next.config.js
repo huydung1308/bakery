@@ -8,10 +8,7 @@ const withPWA = require('next-pwa')({
 
 /** @type {import('next').NextConfig} */
 const settings = {
-  swcMinify: true,
-  compiler: {
-    styledComponents: true
-  }
+  swcMinify: true
 }
 
 module.exports = isProd ? withPWA(settings) : settings

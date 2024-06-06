@@ -8,10 +8,8 @@ This project uses lot of stuff as:
 
 - [TypeScript](https://www.typescriptlang.org/)
 - [NextJS](https://nextjs.org/)
-- [Styled Components](https://styled-components.com/)
 - [Jest](https://jestjs.io/)
 - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
-- [Storybook](https://storybook.js.org/)
 - [Eslint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 - [Husky](https://github.com/typicode/husky)
@@ -50,8 +48,6 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 - `coverage-test:watch`: runs jest to make coverage test of all components and pages in watch mode
 - `test:ci`: run all tests serially in the current process, rather than creating a worker pool of child processes that run tests. This can be useful for debugging.
 - `generate`: generates a basic component structure
-- `storybook`: runs storybook on `localhost:6006`
-- `build-storybook`: create the build version of storybook
 
 ## Learn More
 

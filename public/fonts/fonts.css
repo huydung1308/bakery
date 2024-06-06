@@ -1,0 +1,19 @@
+/* global.css */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/fonts/OpenSans-VariableFont_wdth,wght.ttf') format('truetype');
+    font-weight: 100 900; /* Adjust the weight range as needed */
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Open Sans';
+    src: url('/fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf') format('truetype');
+    font-weight: 100 900; /* Adjust the weight range as needed */
+    font-style: italic;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
