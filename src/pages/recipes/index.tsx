@@ -43,7 +43,7 @@ const Recipes = () => {
               Meet our team of passionate chefs, each with their own culinary
               expertise. Together, we are committed to helping you create
               memorable meals that bring joy to your table and warmth to your
-              soul.
+              soul!
             </Typography>
           </Box>
         </Container>
