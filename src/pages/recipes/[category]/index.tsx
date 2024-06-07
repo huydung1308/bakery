@@ -29,22 +29,22 @@ const Category = () => {
                 How to make {category}
               </Typography>
               <Typography variant="body1" paragraph>
-                {data.content}
+                {data?.content}
               </Typography>
             </Box>
             <RecipeDetails
-              prepTime={data.prep}
-              bakeTime={data.bake}
-              totalTime={data.total}
+              prepTime={data?.prep}
+              bakeTime={data?.bake}
+              totalTime={data?.total}
             />
             <Divider sx={{ margin: '1rem 0' }} />
-            <RecipeYield servings={data.servings} />
+            <RecipeYield servings={data?.servings} />
           </Grid>
           {data?.image && (
             <Grid item xs={12} md={6}>
               <Box>
                 <Image
-                  src={data.image}
+                  src={data?.image}
                   alt={category}
                   style={{
                     width: '100%',
